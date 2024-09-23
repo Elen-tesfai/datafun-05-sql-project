@@ -1,4 +1,8 @@
 -- Start by deleting any tables if they exist already
+-- We want to be able to re-run this script as needed.
+-- DROP tables in reverse order of creation 
+-- DROP dependent tables (with foreign keys) first
+
 DROP TABLE IF EXISTS books;
 DROP TABLE IF EXISTS authors;
 
@@ -13,6 +17,8 @@ CREATE TABLE authors (
 
 -- Create the books table
 -- Note that the books table has a foreign key to the authors table
+-- This means that the books table is dependent on the authors table
+-- Be sure to create the standalone authors table BEFORE creating the books table.
 CREATE TABLE books (
     book_id TEXT PRIMARY KEY,
     title TEXT,
