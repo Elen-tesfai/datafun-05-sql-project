@@ -1,15 +1,22 @@
--- Create authors table
+-- Start by deleting any tables if they exist already
+DROP TABLE IF EXISTS books;
+DROP TABLE IF EXISTS authors;
+
+-- Create the authors table 
+-- Note that the author table has no foreign keys, so it is a standalone table
 CREATE TABLE authors (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL,
-    birth_year INTEGER
+    author_id TEXT PRIMARY KEY,
+    first_name TEXT,
+    last_name TEXT,
+    year_born INTEGER
 );
 
--- Create books table
+-- Create the books table
+-- Note that the books table has a foreign key to the authors table
 CREATE TABLE books (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title TEXT NOT NULL,
-    author_id INTEGER,
-    publication_year INTEGER,
-    FOREIGN KEY (author_id) REFERENCES authors(id)
+    book_id TEXT PRIMARY KEY,
+    title TEXT,
+    year_published INTEGER,
+    author_id TEXT,
+    FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
