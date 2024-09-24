@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # datafun-05-sql
 
 ## Overview
@@ -26,3 +27,6 @@ import numpy
 import scipy
 import seaborn
 import matplotlib
+=======
+# datafun-05-sql-project
+>>>>>>> 773331b63ffece491e44c03fd7f5616a42d1a527
