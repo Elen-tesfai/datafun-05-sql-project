@@ -3,26 +3,36 @@
 -- DROP tables in reverse order of creation 
 -- DROP dependent tables (with foreign keys) first
 
-DROP TABLE IF EXISTS books;
-DROP TABLE IF EXISTS authors;
+DROP TABLE IF EXISTS countrylanguage;
+DROP TABLE IF EXISTS city;
+DROP TABLE IF EXISTS country;
 
--- Create the authors table 
--- Note that the author table has no foreign keys, so it is a standalone table
-CREATE TABLE authors (
-    author_id TEXT PRIMARY KEY,
-    first_name TEXT,
-    last_name TEXT,
-    year_born INTEGER
+-- Create the country table 
+-- Note that the country table has no foreign keys, so it is a standalone table
+CREATE TABLE country (
+    CountryID INTEGER PRIMARY KEY,
+    CountryName TEXT NOT NULL,
+    CountryCode TEXT UNIQUE NOT NULL
 );
 
--- Create the books table
--- Note that the books table has a foreign key to the authors table
--- This means that the books table is dependent on the authors table
--- Be sure to create the standalone authors table BEFORE creating the books table.
-CREATE TABLE books (
-    book_id TEXT PRIMARY KEY,
-    title TEXT,
-    year_published INTEGER,
-    author_id TEXT,
-    FOREIGN KEY (author_id) REFERENCES authors(author_id)
+-- Create the city table
+-- Note that the city table has a foreign key to the country table
+-- This means that the city table is dependent on the country table
+-- Be sure to create the standalone country table BEFORE creating the city table.
+CREATE TABLE city (
+    CityID INTEGER PRIMARY KEY,
+    CityName TEXT NOT NULL,
+    CountryID INTEGER,
+    FOREIGN KEY (CountryID) REFERENCES country(CountryID)
+);
+
+-- Create the countrylanguage table
+-- The countrylanguage table has a foreign key to the country table
+-- This means that the countrylanguage table is dependent on the country table
+CREATE TABLE countrylanguage (
+    CountryID INTEGER,
+    Language TEXT NOT NULL,
+    IsOfficial BOOLEAN,
+    Percentage DECIMAL,
+    FOREIGN KEY (CountryID) REFERENCES country(CountryID)
 );
