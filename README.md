@@ -71,12 +71,14 @@ This project includes backup files located in the backups directory:
 - books_backup.csv: Backup of books data.
 - Additional backups are organized in the data_backup folder.
 
-## 5. Screenshots
-
+## Screenshots
 Below are screenshots showcasing key components of the project:
 
 1. **Creating Tables**: A screenshot of the SQL script used to create tables.
-   ![create_tables.sql](C:/Users/su_te/datafun-05-sql-project/Screenshot%202024-09-26%20013104.png)
+   ![create_tables.sql](screenshots/Screenshot%202024-09-26%20013104.png)
 
 2. **World Manager**: A screenshot of the `world_manager.py` script demonstrating its functionality.
-   ![world_manager.py](C:/Users/su_te/datafun-05-sql-project/Screenshot%202024-09-26%200131518.png)
+   ![world_manager.py](screenshots/Screenshot%202024-09-26%200131518.png)
+   
+## 6. Conclusion
+In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
