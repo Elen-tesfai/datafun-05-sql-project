@@ -5,27 +5,28 @@
 **Query:**
 ```sql
 SELECT * FROM country;
+
 Results:
+```
+ID	Code	Name	Continent
+1	US	United States	North America
+2	CA	Canada	North America
+3	GB	United Kingdom	Europe
+4	FR	France	Europe
+5	DE	Germany	Europe
+6	JP	Japan	Asia
+7	AU	Australia	Oceania
+8	MX	Mexico	North America
+9	CN	China	Asia
+10	IN	India	Asia
 
-ID	Code	Name	      Continent
-1	US	 United States	North America
-2	CA	Canada	        North America
-3	GB	United Kingdom  Europe
-4	FR	France	        Europe
-5	DE	Germany	        Europe
-6	JP	Japan	        Asia
-7	AU	Australia	    Oceania
-8	MX	Mexico	        North America
-9	CN	China	        Asia
-10	IN	India	        Asia
-Cities Table
-Query:
+# Cities Table
+**Query:**
+```sql
 
-sql
-Copy code
 SELECT * FROM city;
-Results:
-
+### Results:
+```
 ID	City	Country Code	District	Population
 1	CityA	US	DistrictA	500000
 2	CityB	US	DistrictB	300000
@@ -37,17 +38,17 @@ ID	City	Country Code	District	Population
 8	CityH	DE	DistrictH	450000
 9	CityI	JP	DistrictI	800000
 10	CityJ	AU	DistrictJ	550000
-Country Languages Table
-Query:
 
-sql
-Copy code
+# Country Languages Table
+**Query:**
+```sql
+
 SELECT * FROM countrylanguage;
-Results:
-
+### Results:
+```
 ID	Language	Country ID	Percentage
-1	English	1	80.0
-1	Spanish	1	15.0
+1	English	1	                   80.0
+1	Spanish	1	                 15.0
 1	French	1	5.0
 2	English	2	60.0
 2	French	2	40.0
