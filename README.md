@@ -39,7 +39,7 @@ To set up this project locally, follow these steps:
 To run the project, use the following commands:
 ```bash
 python data_import.py
-
+```
 Project Structure
 
 datafun-05-sql-project/
