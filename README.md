@@ -39,19 +39,28 @@ To set up this project locally, follow these steps:
 To run the project, use the following commands:
 ```bash
 python data_import.py
+```
+## Project Structure
+```
 
-
-Project Structure
-datafun-05-sql-project/ │ ├── backups/ │ ├── data_backup/ │ ├── scripts_backup/ │ ├── sql_backup/ │ ├── book_manager_backup.py │ └── project_backup.db │ ├── data/ │ ├── city.csv │ ├── country.csv │ └── countrylanguage.csv ├── scripts/ │ └── data_import.py ├── sql/ │ └── create_tables.sql ├── project.db ├── README.md ├── requirements.txt └── world_manager.py
-
-Backups
-This project includes backup files located in the backups directory:
-
-authors_backup.csv: Backup of authors data.
-books_backup.csv: Backup of books data.
-Additional backups are organized in the data_backup folder.
-Screenshots
-(Add screenshots here that showcase your project’s functionality and results.)
-
-Conclusion
-In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
+datafun-05-sql-project/
+│
+├── backups/
+│   ├── data_backup/
+│   ├── scripts_backup/
+│   ├── sql_backup/
+│   ├── book_manager_backup.py
+│   └── project_backup.db 
+│
+├── data/
+│   ├── city.csv
+│   ├── country.csv
+│   └── countrylanguage.csv
+├── scripts/
+│   └── data_import.py 
+├── sql/
+│   └── create_tables.sql
+├── project.db 
+├── README.md
+├── requirements.txt
+└── world_manager.py
