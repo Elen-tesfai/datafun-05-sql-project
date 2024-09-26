@@ -7,9 +7,14 @@
 .vscode/
 
 # Compiled Python files
-__pycache__/
+__pycache__/ 
 
 # macOS system files
 .DS_Store
+
+# Ignore all PNG files
+*.png
+
+# Track specific screenshots
 !Screenshot 2024-09-26 101149.png
 !Screenshot 2024-09-26 101336.png
