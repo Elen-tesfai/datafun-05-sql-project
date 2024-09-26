@@ -71,11 +71,14 @@ This project includes backup files located in the backups directory:
 - books_backup.csv: Backup of books data.
 - Additional backups are organized in the data_backup folder.
 
-### Screenshots
+## 5. Screenshots
 Below are screenshots showcasing key components of the project:
 
-![Creating Tables](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%202024-09-26%20013104.png)
-![World Manager](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%202024-09-26%20013518.png)
+#### Creating Tables
+![Creating Tables](https://github.com/Elen-tesfai/datafun-05-sql-project/blob/main/Screenshot%202024-09-26%20013104.png?raw=true)
+
+#### World Manager
+![World Manager](https://github.com/Elen-tesfai/datafun-05-sql-project/blob/main/Screenshot%202024-09-26%20013518.png?raw=true)
 
 ## 6. Conclusion
 In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
