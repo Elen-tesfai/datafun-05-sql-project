@@ -19,7 +19,7 @@ In this project, we will:
 
 ## 1. Installation
 To set up this project locally, follow these steps:
-```
+
 - Clone the repository:
     ```bash
     git clone https://github.com/Elen-tesfai/datafun-05-sql-project.git
@@ -70,6 +70,6 @@ This project includes backup files located in the backups directory:
 - authors_backup.csv: Backup of authors data.
 - books_backup.csv: Backup of books data.
 - Additional backups are organized in the data_backup folder.
-```
+
 ## 5. Screenshots
-```
+
