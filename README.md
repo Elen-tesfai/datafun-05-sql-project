@@ -79,11 +79,10 @@ Below are screenshots showcasing key components of the project:
 
 
 #### Creating Tables
-![Creating Tables](<https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101149.png>)
+![alt text](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101149.png)
 
 #### World Manager
-![World Manager](<https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101336.png>)
-
+![alt text](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101336.png)
 
 ## 6. Conclusion
 In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
