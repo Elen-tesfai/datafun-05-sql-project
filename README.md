@@ -79,5 +79,6 @@ Below are screenshots showcasing key components of the project:
 
 ![World Manager](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20025559.png)
 *World Manager Screenshot*
+
 ## 6. Conclusion
 In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
