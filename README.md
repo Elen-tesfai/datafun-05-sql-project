@@ -74,11 +74,8 @@ This project includes backup files located in the backups directory:
 ## Screenshots
 Below are screenshots showcasing key components of the project:
 
-1. **Creating Tables**: A screenshot of the SQL script used to create tables.
-   ![create_tables.sql](screenshots/Screenshot%202024-09-26%20013104.png)
+![Creating Tables](Screenshot 2024-09-26 013104.png)
+![World Manager](Screenshot 2024-09-26 013518.png)
 
-2. **World Manager**: A screenshot of the `world_manager.py` script demonstrating its functionality.
-   ![world_manager.py](screenshots/Screenshot%202024-09-26%200131518.png)
-   
 ## 6. Conclusion
 In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
