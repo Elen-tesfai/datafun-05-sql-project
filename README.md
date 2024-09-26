@@ -71,7 +71,7 @@ This project includes backup files located in the backups directory:
 - books_backup.csv: Backup of books data.
 - Additional backups are organized in the data_backup folder.
 
-## 5. Screenshots
+### Screenshots
 Below are screenshots showcasing key components of the project:
 
 ![Creating Tables](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20013104.png)
