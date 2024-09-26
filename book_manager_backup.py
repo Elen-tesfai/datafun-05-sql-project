@@ -44,7 +44,13 @@ def insert_data_from_csv(db_path, author_data_path, book_data_path):
     try:
         authors_df = pd.read_csv(author_data_path)
         books_df = pd.read_csv(book_data_path)
-        
+
+        # Print DataFrames to verify data loading
+        print("Authors DataFrame:")
+        print(authors_df)
+        print("Books DataFrame:")
+        print(books_df)
+
         with sqlite3.connect(db_path) as conn:
             authors_df.to_sql("authors", conn, if_exists="replace", index=False)
             books_df.to_sql("books", conn, if_exists="replace", index=False)

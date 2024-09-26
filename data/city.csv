@@ -1,0 +1,11 @@
+ID,Name,CountryCode,District,Population
+1,CityA,US,DistrictA,500000
+2,CityB,US,DistrictB,300000
+3,CityC,CA,DistrictC,250000
+4,CityD,US,DistrictD,700000
+5,CityE,CA,DistrictE,400000
+6,CityF,GB,DistrictF,350000
+7,CityG,FR,DistrictG,600000
+8,CityH,DE,DistrictH,450000
+9,CityI,JP,DistrictI,800000
+10,CityJ,AU,DistrictJ,550000

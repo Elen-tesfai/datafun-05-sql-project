@@ -1,8 +1,15 @@
 import csv
-import sqlite3  # or your preferred database module
+import sqlite3
+import pathlib
+
+# Define paths
+db_file_path = pathlib.Path("C:/Users/su_te/datafun-05-sql-project/data/book_db.sqlite")
+city_data_path = pathlib.Path("C:/Users/su_te/datafun-05-sql-project/data/city.csv")
+country_data_path = pathlib.Path("C:/Users/su_te/datafun-05-sql-project/data/country.csv")
+countrylanguage_data_path = pathlib.Path("C:/Users/su_te/datafun-05-sql-project/data/countrylanguage.csv")
 
 # Connect to your database (create it if it doesn't exist)
-conn = sqlite3.connect('book_db.sqlite')
+conn = sqlite3.connect(db_file_path)
 cursor = conn.cursor()
 
 # Create tables if they don't exist
@@ -29,22 +36,30 @@ cursor.execute("DELETE FROM authors")
 cursor.execute("DELETE FROM books")
 
 # Read authors
-with open('C:/Users/su_te/datafun-05-sql/data/authors.csv', 'r', encoding='utf-8') as file:
-    reader = csv.DictReader(file)
-    for row in reader:
-        cursor.execute('''
-            INSERT INTO authors (author_id, first, last)
-            VALUES (?, ?, ?)
-        ''', (row['author_id'], row['first'], row['last']))
+try:
+    with open(country_data_path, 'r', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            cursor.execute('''
+                INSERT INTO authors (author_id, first, last)
+                VALUES (?, ?, ?)
+            ''', (row['author_id'], row['first'], row['last']))
+    print("Authors data inserted successfully.")
+except Exception as e:
+    print(f"Error reading authors data: {e}")
 
 # Read books
-with open('C:/Users/su_te/datafun-05-sql/data/books.csv', 'r', encoding='utf-8') as file:
-    reader = csv.DictReader(file)
-    for row in reader:
-        cursor.execute('''
-            INSERT INTO books (book_id, title, year_published, author_id)
-            VALUES (?, ?, ?, ?)
-        ''', (row['book_id'], row['title'], row['year_published'], row['author_id']))
+try:
+    with open(city_data_path, 'r', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            cursor.execute('''
+                INSERT INTO books (book_id, title, year_published, author_id)
+                VALUES (?, ?, ?, ?)
+            ''', (row['book_id'], row['title'], row['year_published'], row['author_id']))
+    print("Books data inserted successfully.")
+except Exception as e:
+    print(f"Error reading books data: {e}")
 
 # Commit changes and close the connection
 conn.commit()
