@@ -57,7 +57,10 @@ datafun-05-sql-project/
 ├── scripts/
 │   └── data_import.py 
 ├── sql/
-│   └── create_tables.sql
+│   ├── create_tables.sql        # Script to create the database tables
+│   ├── insert_data.sql          # Script to insert sample data into the tables
+│   ├── queries.sql              # Script containing various SQL queries for data retrieval
+│   └── schema_description.md     # Description of the database schema
 ├── project.db 
 ├── README.md
 ├── requirements.txt
