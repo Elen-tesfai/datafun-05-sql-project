@@ -17,25 +17,24 @@ In this project, we will:
 5. [Screenshots](#screenshots)
 6. [Conclusion](#conclusion)
 
-## Installation
+## 1. Installation
 To set up this project locally, follow these steps:
 
-1. Clone the repository:
+- Clone the repository:
     ```bash
     git clone https://github.com/Elen-tesfai/datafun-05-sql-project.git
     cd datafun-05-sql-project
     ```
-2. Set up a virtual environment:
+- Set up a virtual environment:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
-3. Install required packages:
+- Install required packages:
     ```bash
     pip install -r requirements.txt
     ```
-
-## Usage
+## 2. Usage
 To run the project, use the following commands:
 ```bash
 python data_import.py
@@ -68,9 +67,9 @@ datafun-05-sql-project/
 ```
 This project includes backup files located in the backups directory:
 
-authors_backup.csv: Backup of authors data.
-books_backup.csv: Backup of books data.
-Additional backups are organized in the data_backup folder.
+- authors_backup.csv: Backup of authors data.
+- books_backup.csv: Backup of books data.
+- Additional backups are organized in the data_backup folder.
 ```
 ## 5. Screenshots
 ```
