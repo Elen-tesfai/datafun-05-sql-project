@@ -75,10 +75,10 @@ This project includes backup files located in the backups directory:
 Below are screenshots showcasing key components of the project:
 
 #### Creating Tables
-![Creating Tables](<Screenshot 2024-09-26 025459.png>)
+![alt text](<Screenshot 2024-09-26 025459.png>)
 
 #### World Manager
-![World Manager](<Screenshot 2024-09-26 025559.png>)
+![alt text](<Screenshot 2024-09-26 025559.png>)
 
 ## 6. Conclusion
 In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
