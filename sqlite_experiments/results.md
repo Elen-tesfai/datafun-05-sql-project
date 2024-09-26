@@ -7,17 +7,17 @@
 SELECT * FROM country;
 Results:
 
-ID	Code	Name	Continent
-1	US	United States	North America
-2	CA	Canada	North America
-3	GB	United Kingdom	Europe
-4	FR	France	Europe
-5	DE	Germany	Europe
-6	JP	Japan	Asia
-7	AU	Australia	Oceania
-8	MX	Mexico	North America
-9	CN	China	Asia
-10	IN	India	Asia
+ID	Code	Name	      Continent
+1	US	 United States	North America
+2	CA	Canada	        North America
+3	GB	United Kingdom  Europe
+4	FR	France	        Europe
+5	DE	Germany	        Europe
+6	JP	Japan	        Asia
+7	AU	Australia	    Oceania
+8	MX	Mexico	        North America
+9	CN	China	        Asia
+10	IN	India	        Asia
 Cities Table
 Query:
 
