@@ -74,17 +74,15 @@ This project includes backup files located in the backups directory:
 ## 5. Screenshots
 Below are screenshots showcasing key components of the project:
 
-#### Creating Tables
+### Screenshots
 Below are screenshots showcasing key components of the project:
 
 
-![Creating Tables](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101149.png)
+#### Creating Tables
+![Creating Tables](<https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101149.png>)
 
 #### World Manager
-
-![World Manager](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101336.png)
-
-
+![World Manager](<https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20101336.png>)
 
 
 ## 6. Conclusion
