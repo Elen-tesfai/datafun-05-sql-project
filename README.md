@@ -1,33 +1,151 @@
-<<<<<<< HEAD
 # datafun-05-sql-project
 
 ## Overview
-This project integrates Python and SQL, focusing on database interactions using SQLite. It introduces logging, a useful tool for debugging and monitoring projects, and involves creating and managing a database, building a schema, and performing various SQL operations, including queries with joins, filters, and aggregations.
+This project integrates Python and SQL to work with well-structured relational data, demonstrating core competencies and skills associated with basic SQL.
 
 ## Project Description
-Note: This project uses modules for practice. Jupyter will be revisited later.
+In this project, we will:
+- Utilize Python to manage and manipulate the database.
+- Perform various SQL operations including queries, joins, filters, and aggregations.
+- Leverage pandas for data manipulation and sqlite3 for database interactions.
 
-Python will be used to create and manage the overall database, while SQL will interact with the relational data and tables. The DBMS is SQLite, a lightweight, file-based database widely used in browsers, mobile devices, and more. The following packages from the Python Standard Library may be used:
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Project Structure](#project-structure)
+4. [Backups](#backups)
+5. [Screenshots](#screenshots)
+6. [Conclusion](#conclusion)
 
-- `csv` - optional; `pandas` is preferred for cleaner code
-- `pathlib`
-- `sqlite3`
-- `uuid` - optional; utility for creating unique IDs (helpful with databases)
+## Installation
+To set up this project locally, follow these steps:
 
-An external dependency (e.g., `pandas`) will also be added, requiring the creation of a project-specific virtual environment using venv and pip.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Elen-tesfai/datafun-05-sql-project.git
+    cd datafun-05-sql-project
+    ```
+2. Set up a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+3. Install required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-- `pandas` is used to read from CSV with cleaner code
-- `pyarrow` is required when using `pandas`
+## Usage
+To run the project, use the following commands:
+```bash
+python data_import.py
 
-## Import Dependencies
-```python
-import pandas
-import pyarrow  # required when using pandas
-import numpy
-import scipy
-import seaborn
-import matplotlib
-=======
+Project Structure
+
+datafun-05-sql-project/
+│
+├── backups/
+│   ├── data_backup/
+│   ├── scripts_backup/
+│   ├── sql_backup/
+│   ├── book_manager_backup.py
+│   └── project_backup.db 
+│
+├── data/
+│   ├── city.csv
+│   ├── country.csv
+│   └── countrylanguage.csv
+├── scripts/
+│   └── data_import.py 
+├── sql/
+│   └── create_tables.sql
+├── project.db 
+├── README.md
+├── requirements.txt
+└── world_manager.py
+
+
+Thanks for catching that! Here’s the updated README.md with the usage section correctly formatted:
+
+markdown
+Copy code
 # datafun-05-sql-project
->>>>>>> 773331b63ffece491e44c03fd7f5616a42d1a527
 
+## Overview
+This project integrates Python and SQL to work with well-structured relational data, demonstrating core competencies and skills associated with basic SQL.
+
+## Project Description
+In this project, we will:
+- Utilize Python to manage and manipulate the database.
+- Perform various SQL operations including queries, joins, filters, and aggregations.
+- Leverage pandas for data manipulation and sqlite3 for database interactions.
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Project Structure](#project-structure)
+4. [Backups](#backups)
+5. [Screenshots](#screenshots)
+6. [Conclusion](#conclusion)
+
+## Installation
+To set up this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Elen-tesfai/datafun-05-sql-project.git
+    cd datafun-05-sql-project
+    ```
+2. Set up a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+3. Install required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+To run the project, use the following command:
+```bash
+python data_import.py
+Replace <your_script.py> with the relevant script you want to execute.
+
+Project Structure
+sql
+Copy code
+datafun-05-sql-project/
+│
+├── backups/
+│   ├── data_backup/
+│   ├── scripts_backup/
+│   ├── sql_backup/
+│   ├── book_manager_backup.py
+│   └── project_backup.db 
+│
+├── data/
+│   ├── city.csv
+│   ├── country.csv
+│   └── countrylanguage.csv
+├── scripts/
+│   └── data_import.py 
+├── sql/
+│   └── create_tables.sql
+├── project.db 
+├── README.md
+├── requirements.txt
+└── world_manager.py
+Backups
+This project includes backup files located in the backups directory:
+
+authors_backup.csv: Backup of authors data.
+books_backup.csv: Backup of books data.
+Additional backups are organized in the data_backup folder.
+Screenshots
+(Add screenshots here that showcase your project’s functionality and results.)
+
+Conclusion
+In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
+
+c
