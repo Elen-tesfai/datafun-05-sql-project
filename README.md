@@ -74,8 +74,8 @@ This project includes backup files located in the backups directory:
 ## 5. Screenshots
 Below are screenshots showcasing key components of the project:
 
-![Creating Tables](Screenshot 2024-09-26 013104.png)
-![World Manager](Screenshot 2024-09-26 013518.png)
+![Creating Tables](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20013104.png)
+![World Manager](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot%2024-09-26%20013518.png)
 
 ## 6. Conclusion
 In this project, we explored the integration of Python and SQL, enhancing our data management skills and gaining valuable insights from relational data.
