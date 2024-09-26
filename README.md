@@ -40,8 +40,8 @@ To run the project, use the following commands:
 ```bash
 python data_import.py
 ```
-## Project Structure
-
+## 3. Project Structure
+```
 datafun-05-sql-project/
 │
 ├── backups/
@@ -63,12 +63,14 @@ datafun-05-sql-project/
 ├── README.md
 ├── requirements.txt
 └── world_manager.py
-
-## 1. Backups
+```
+## 4. Backups
+```
 This project includes backup files located in the backups directory:
 
 authors_backup.csv: Backup of authors data.
 books_backup.csv: Backup of books data.
 Additional backups are organized in the data_backup folder.
-
-Screenshots
+```
+## 5. Screenshots
+```
