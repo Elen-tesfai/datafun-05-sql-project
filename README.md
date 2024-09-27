@@ -77,10 +77,6 @@ This project includes backup files located in the backups directory:
 ## 5. Screenshots
 Below are screenshots showcasing key components of the project:
 
-### Screenshots
-Below are screenshots showcasing key components of the project:
-
-
 #### Creating Tables
 ![Creating Tables](https://raw.githubusercontent.com/Elen-tesfai/datafun-05-sql-project/main/Screenshot_1.png)
 
