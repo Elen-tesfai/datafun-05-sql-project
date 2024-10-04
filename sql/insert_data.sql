@@ -1,0 +1,63 @@
+-- Insert sample data into the country table
+INSERT INTO country (CountryID, CountryCode, CountryName, Region) VALUES
+(1, 'US', 'United States', 'North America'),
+(2, 'CA', 'Canada', 'North America'),
+(3, 'MX', 'Mexico', 'North America'),
+(4, 'GB', 'United Kingdom', 'Europe'),
+(5, 'FR', 'France', 'Europe'),
+(6, 'DE', 'Germany', 'Europe'),
+(7, 'JP', 'Japan', 'Asia'),
+(8, 'AU', 'Australia', 'Oceania'),
+(9, 'CN', 'China', 'Asia'),
+(10, 'IN', 'India', 'Asia');
+
+-- Insert sample data into the city table
+INSERT INTO city (CityID, CityName, CountryID) VALUES
+(1, 'New York', 1),
+(2, 'Los Angeles', 1),
+(3, 'Chicago', 1),
+(4, 'Houston', 1),
+(5, 'Toronto', 2),
+(6, 'Vancouver', 2),
+(7, 'Montreal', 2),
+(8, 'Calgary', 2),
+(9, 'Mexico City', 3),
+(10, 'Guadalajara', 3),
+(11, 'London', 4),
+(12, 'Manchester', 4),
+(13, 'Birmingham', 4),
+(14, 'Liverpool', 4),
+(15, 'Paris', 5),
+(16, 'Lyon', 5),
+(17, 'Berlin', 6),
+(18, 'Munich', 6),
+(19, 'Tokyo', 7),
+(20, 'Osaka', 7),
+(21, 'Kyoto', 7),
+(22, 'Yokohama', 7),
+(23, 'Sydney', 8),
+(24, 'Melbourne', 8),
+(25, 'Brisbane', 8),
+(26, 'Perth', 8),
+(27, 'Beijing', 9),
+(28, 'Shanghai', 9),
+(29, 'Shenzhen', 9),
+(30, 'Guangzhou', 9),
+(31, 'Delhi', 10),
+(32, 'Mumbai', 10),
+(33, 'Bengaluru', 10),
+(34, 'Chennai', 10);
+
+-- Insert sample data into the countrylanguage table
+INSERT INTO countrylanguage (CountryID, Language, IsOfficial, Percentage) VALUES
+(1, 'English', TRUE, 80.0),
+(2, 'English', TRUE, 56.0),
+(2, 'French', TRUE, 44.0),
+(3, 'Spanish', TRUE, 98.0),
+(4, 'English', TRUE, 98.0),
+(5, 'French', TRUE, 100.0),
+(6, 'German', TRUE, 100.0),
+(7, 'Japanese', TRUE, 100.0),
+(8, 'English', TRUE, 100.0),
+(9, 'Mandarin', TRUE, 70.0),
+(10, 'Hindi', TRUE, 50.0);
